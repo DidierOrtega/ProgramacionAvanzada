@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3be034ae-f4ae-4507-b808-0bd86216680c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/PersistenciaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/PersistenciaApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -79,7 +88,7 @@
       <updated>1677681389595</updated>
       <workItem from="1677681389712" duration="3733000" />
       <workItem from="1677765988541" duration="1954000" />
-      <workItem from="1677768259166" duration="732000" />
+      <workItem from="1677768259166" duration="2511000" />
     </task>
     <servers />
   </component>
