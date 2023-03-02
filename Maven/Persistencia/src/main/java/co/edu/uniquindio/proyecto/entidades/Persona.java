@@ -48,25 +48,19 @@ public class Persona implements Serializable {
         this.telefono = telefono;
     }
 
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (!(o instanceof Persona)) return false;
 
         Persona persona = (Persona) o;
 
-        if (!Objects.equals(cedula, persona.cedula)) return false;
-        if (!Objects.equals(nombre, persona.nombre)) return false;
-        if (!Objects.equals(email, persona.email)) return false;
-        return Objects.equals(telefono, persona.telefono);
+        return getCedula().equals(persona.getCedula());
     }
 
     @Override
     public int hashCode() {
-        int result = cedula != null ? cedula.hashCode() : 0;
-        result = 31 * result + (nombre != null ? nombre.hashCode() : 0);
-        result = 31 * result + (email != null ? email.hashCode() : 0);
-        result = 31 * result + (telefono != null ? telefono.hashCode() : 0);
-        return result;
+        return getCedula().hashCode();
     }
 }
